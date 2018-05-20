@@ -4,9 +4,9 @@ import {Column, Model, Table} from 'sequelize-typescript';
 export class Person extends Model<Person> {
 
     @Column
-    name: string;
+    name!: string;
 
     @Column
-    age: number;
+    age!: number;
 
 }

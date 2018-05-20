@@ -7,10 +7,11 @@
     "emitDecoratorMetadata": true,
     "sourceMap": true,
     "declaration": false,
+    "strict": true,
     "strictNullChecks": true,
     "noUnusedLocals": true,
     "pretty": true,
-    "skipLibCheck": true,
+    "skipLibCheck": false,
     "lib": ["es2015", "dom"]
   },
   "files": [
